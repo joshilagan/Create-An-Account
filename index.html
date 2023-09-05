@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create an Account</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="reg-container">
+        <form action=""  target="_blank" class="reg-form">
+            <h3>Create an Account</h3>
+            <input type="text" id="fname" class="inputs fNames" placeholder="First Name">
+            <input type="text" id="lname" class="inputs lNames" placeholder="Last Name">
+            <input 
+                type="email" 
+                id="email" 
+                class="emails inputs" 
+                placeholder="Email" 
+                autocomplete="on">
+            <input type="password" id="password" class="passwords inputs" placeholder="Password">
+            <input type="password" id="confirmPassword" class="confirmPasswords inputs" placeholder="Confirm Password">
+            <div class="terms">
+                <input type="checkbox" id="checkboxed" class="checkbox"><p> I understand the <a href="./termsandconditions.html" target="_blank"> terms and conditions</a></p>
+            </div>
+            <button class="submit btn" disabled>Submit</button>
+        </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
